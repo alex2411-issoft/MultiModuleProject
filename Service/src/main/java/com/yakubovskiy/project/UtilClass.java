@@ -7,6 +7,12 @@ import org.slf4j.LoggerFactory;
 public class UtilClass {
     private static final Logger LOGGER = LoggerFactory.getLogger(UtilClass.class);
 
+    public static int recursiveBinarySearch(int arr[], int key) {
+        int first = 0;
+        int last = arr.length - 1;
+        return recursiveBinarySearch(arr, first, last, key);
+    }
+
     public static int recursiveBinarySearch(int arr[], int firstElement, int lastElement, int key) {
         if (lastElement >= firstElement) {
             int mid = firstElement + (lastElement - firstElement) / 2;

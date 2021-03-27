@@ -9,9 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         int[] sortedArray = new int[]{3, 22, 27, 47, 57, 67, 89, 91, 95, 99};
-        int first = 0;
-        int last = sortedArray.length - 1;
-        int index = UtilClass.recursiveBinarySearch(sortedArray, first, last, 99);
+        int index = UtilClass.recursiveBinarySearch(sortedArray, 99);
         if (index != -1) {
             LOGGER.info("Index of key value is {} ", index);
         } else {
