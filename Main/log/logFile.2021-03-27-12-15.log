@@ -1,0 +1,5 @@
+27.03.2021 12:15:45.738 [main] {DEBUG}  c.y.p.UtilClass - The key value is more then middle element (99 > 57). Calling a recursive function
+27.03.2021 12:15:45.742 [main] {DEBUG}  c.y.p.UtilClass - The key value is more then middle element (99 > 91). Calling a recursive function
+27.03.2021 12:15:45.743 [main] {DEBUG}  c.y.p.UtilClass - The key value is more then middle element (99 > 95). Calling a recursive function
+27.03.2021 12:15:45.743 [main] {DEBUG}  c.y.p.UtilClass - The key value equal with the middle element. Return this index.
+27.03.2021 12:15:45.743 [main] {INFO }  c.y.project.Main - Index of key value is 9 
